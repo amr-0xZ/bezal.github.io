@@ -1,0 +1,309 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand img {
+    width: 90px;
+}
+.navbar{
+    box-shadow: 3px 3px 20px #c2c2c2b2;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+.slid1{
+    background-image: url(../imgs/bg-image-28.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.slid2{
+    background-image: url(../imgs/bg-image-29.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.shado {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-align: center;
+}
+.herohome {
+    text-align: center;
+    padding-top: 210px;
+}
+.herohome h1 {
+    color: #fff;
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.herohome h4 {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+.read{
+    padding: 13px 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: none ;
+    border-radius: 4px;
+    background-color: #30b3ff;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.read:hover{
+    transform: translatey(-5px);
+    background-color: #78ceff;
+}
+.contactp{
+    padding: 13px 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: #fff solid 0.5px ;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.contactp:hover{
+    transform: translatey(-5px);
+    background-color: #fff;
+    color: black;
+}
+.about{
+    text-align: center;
+}
+.about .container{
+    text-align: center;
+    width: 60%;
+    margin-top: 100px;
+}
+.about h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+.about p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #787878;
+}
+.about span{
+    color: #30b3ff;
+    font-weight: 500;
+}
+.readmo{
+    padding: 13px 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: #acacac solid 0.4px ;
+    background-color: transparent;
+    color: #000;
+    font-size: 13px;
+    transition: all 0.3s;
+    margin-bottom: 100px;
+}
+.readmo:hover{
+    color: #fff;
+    background-color: #000;
+    border: #000;
+}
+.team{
+    padding-bottom: 100px;
+}
+.team .container{
+    text-align: center;
+    margin-top: 100px;
+}
+.titl{
+    font-weight: 700;
+    position: relative;
+}
+.titl::before{
+    content: "C";
+    opacity: 0.2;
+    font-size: 55px;
+    position: absolute;
+    top: -60%;
+    left: 47%;
+}
+.titlw{
+    font-weight: 700;
+    position: relative;
+}
+.titlw::before{
+    content: "W";
+    opacity: 0.2;
+    font-size: 55px;
+    position: absolute;
+    top: -60%;
+    left: 0;
+}
+.team h4{
+    font-size: 18px;
+    color: #787878;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.team img {
+    width: 100%;
+}
+.mem{
+    overflow: hidden;
+}
+.photoshad {
+    width: 100%;
+    height: 100%;
+    background-color: #30b3ffbb;
+    position: absolute;
+    top: 20%;
+    z-index: 9;
+    opacity: 0;
+    transition: all 0.3s;
+    /* text-align: center; */
+}
+.mem:hover{
+    .photoshad {
+        opacity: 1;
+        top: 0px;
+    }
+}
+.photoshad .ico {
+    height: 50%;
+    padding-top: 40%;
+}
+.photoshad .text {
+    height: 50%;
+    padding-top: 10%;
+}
+.photoshad .text h4{
+    margin: 0px;
+    color: #fff;
+}
+.photoshad .text p{
+    color: #fff;
+}
+.photoshad i {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #dfdfdf;
+    transition: all 0.3s;
+}
+.photoshad i:hover{
+    color: #ffffff;
+}
+.works{
+    padding-top: 90px;
+    background-color: #616161;
+    padding-bottom: 70px;
+}
+.works .row{
+    color: #fff;
+}
+.gr1 {
+    padding-bottom: 70px;
+}
+.prices{
+    padding-top: 100px;
+    background-color: #F7F7F7;
+    padding-bottom: 100px;
+}
+.prices h4{
+    font-size: 18px;
+  color: #787878;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.prices h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+.prices p{
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 20px;
+}
+.prices p::before{
+    content: "$";
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    left: 39%;
+}
+.prices ul{
+    list-style: none;
+    padding: 0%;
+}
+.prices li{
+    font-size: 16px;
+    color: #787878;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.prices .cont{
+    box-shadow: 3px 3px 20px #c2c2c2b2;
+    background-color: #fff;
+}
+.best{
+    transform: scale(1.1);
+}
+.best p{
+    color: #30b3ff;
+}
+.best p::after{
+    content: "BEST VALUE";
+    color: #fff;
+    background-color: #30b3ff;
+    width: 70px;
+    height: 18px;
+    border-radius: 500px;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    top: -10%;
+}
+.grido{
+    margin-bottom: 200px;
+}
+.costum{
+    background-color: #F7F7F7;
+    padding-bottom: 200px;
+}
+.costum h3{
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 50px;
+}
+.contactt{
+    background-color: #fff;
+}
+.cog::before{
+    content: "G";
+    left: 0;
+    opacity: 0.1;
+}
+.contactt h4{
+    font-size: 18px;
+  color: #787878;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
